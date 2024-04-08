@@ -11,7 +11,7 @@ import './Board.css';
   
     return (
 
-        <div className='board=wrapper'>
+        <div className='board-wrapper'>
         <div className='board-row'>
           {renderSquare(0)}
           {renderSquare(1)}
