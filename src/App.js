@@ -70,6 +70,7 @@ function App() {
   })
   
   const jumpTo = (step) => {
+    setHistory(history.slice(0, step + 1));
     setStepNumber(step);
     setXisNext((step % 2) === 0);
   }
